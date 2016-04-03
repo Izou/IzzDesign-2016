@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Izz Design</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/animate.css" />
+
+		<!-- Morphing -->
+		<link rel="stylesheet" type="text/css" href="assets/morphing/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="assets/morphing/css/component.css" />
+		<link rel="stylesheet" type="text/css" href="assets/morphing/css/content.css" />
+		<script src="assets/morphing/js/modernizr.custom.js"></script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body id="top">
+		<!-- Header -->
+			<header id="header" data-wow-duration="1000ms" class="wow slideInLeft animated">
+				<div class="top980">
+					<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated"><span>Izz </span>Design <span>!</span></h2>
+					<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">Infographiste Webdesigner</span></h3>
+					<p data-wow-duration="1000ms" class="wow slideInRight animated">Illustration - Photographie - Photomontages - Webdesign</p>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main-projects">
+
+				<!-- One -->
+					<section id="one">
+						<header id="major">
+								<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated"><span>Izz </span>Design <span>!</span></h2>
+								<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">Infographiste Webdesigner</span></h3>
+								<p data-wow-duration="1000ms" class="wow slideInRight animated">Illustration - Photographie - Photomontages - Webdesign</p>
+						</header>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="main clearfix">
+						<h2>Portfolio</h2>
+							<div class="work">
+								<a href="inner.html">
+									<img src="images/w3.jpg" class="media" alt=""/>
+									<div class="caption">
+										<div class="work_title">
+											<h1>culpa qui officia deserunt mollit</h1>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="work">
+								<a href="inner.html">
+									<img src="images/w3.jpg" class="media" alt=""/>
+									<div class="caption">
+										<div class="work_title">
+											<h1>culpa qui officia deserunt mollit</h1>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="work">
+								<a href="inner.html">
+									<img src="images/w3.jpg" class="media" alt=""/>
+									<div class="caption">
+										<div class="work_title">
+											<h1>culpa qui officia deserunt mollit</h1>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="work">
+								<a href="inner.html">
+									<img src="images/w3.jpg" class="media" alt=""/>
+									<div class="caption">
+										<div class="work_title">
+											<h1>culpa qui officia deserunt mollit</h1>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="work">
+								<a href="inner.html">
+									<img src="images/w3.jpg.jpg" class="media" alt=""/>
+									<div class="caption">
+										<div class="work_title">
+											<h1>culpa qui officia deserunt mollit</h1>
+										</div>
+									</div>
+								</a>
+							</div>
+							<ul class="actions center clear">
+								<li><a href="../index.html" class="button center">Accueil</a></li>
+							</ul>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+    		<script src="../assets/js/wow.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+			<!-- Morphing -->
+			<script src="assets/morphing/js/classie.js"></script>
+			<script src="assets/morphing/js/uiMorphingButton_fixed.js"></script>
+			<script>
+				(function() {	
+					var docElem = window.document.documentElement, didScroll, scrollPosition;
+
+					// trick to prevent scrolling when opening/closing button
+					function noScrollFn() {
+						window.scrollTo( scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0 );
+					}
+
+					function noScroll() {
+						window.removeEventListener( 'scroll', scrollHandler );
+						window.addEventListener( 'scroll', noScrollFn );
+					}
+
+					function scrollFn() {
+						window.addEventListener( 'scroll', scrollHandler );
+					}
+
+					function canScroll() {
+						window.removeEventListener( 'scroll', noScrollFn );
+						scrollFn();
+					}
+
+					function scrollHandler() {
+						if( !didScroll ) {
+							didScroll = true;
+							setTimeout( function() { scrollPage(); }, 60 );
+						}
+					};
+
+					function scrollPage() {
+						scrollPosition = { x : window.pageXOffset || docElem.scrollLeft, y : window.pageYOffset || docElem.scrollTop };
+						didScroll = false;
+					};
+
+					scrollFn();
+					
+					var el = document.querySelector( '.morph-button' );
+					
+					new UIMorphingButton( el, {
+						closeEl : '.icon-close',
+						onBeforeOpen : function() {
+							// don't allow to scroll
+							noScroll();
+						},
+						onAfterOpen : function() {
+							// can scroll again
+							canScroll();
+							// add class "noscroll" to body
+							classie.addClass( document.body, 'noscroll' );
+							// add scroll class to main el
+							classie.addClass( el, 'scroll' );
+						},
+						onBeforeClose : function() {
+							// remove class "noscroll" to body
+							classie.removeClass( document.body, 'noscroll' );
+							// remove scroll class from main el
+							classie.removeClass( el, 'scroll' );
+							// don't allow to scroll
+							noScroll();
+						},
+						onAfterClose : function() {
+							// can scroll again
+							canScroll();
+						}
+					} );
+				})();
+			</script>
+	</body>
+</html>
