@@ -2766,10 +2766,6 @@
 		margin-left: 30%;
 	}
 
-	#owl-portfolio{
-		display: block;
-	}
-
 
 /* Poptrox */
 
@@ -3255,11 +3251,6 @@
 					padding: 2.25em 0 0 0;
 				}
 
-			#owl-portfolio{
-				display: none;
-			}
-
-
 		/*work*/
 		.main .work{
 			width: 50%
@@ -3348,7 +3339,6 @@
 
 		/*Images*/
 		.image.fit img{
-			width: auto;
 			margin: 0 auto;
 		}
 	}
