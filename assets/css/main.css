@@ -1820,8 +1820,8 @@
 	}
 
 		.select-wrapper:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
+			/*-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;*/
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
@@ -1886,8 +1886,8 @@
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
+				/*-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;*/
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
@@ -2102,8 +2102,8 @@
 	}
 
 		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
+			/*-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;*/
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
@@ -2283,6 +2283,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			margin-top: 2em;
 		}
 
 			ul.actions li {
@@ -2578,7 +2579,7 @@
 
 /* Work Item */
 
-	.work-item{
+/*	.work-item{
 		margin: 0;
 	}
 
@@ -2602,7 +2603,7 @@
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
-		}
+		}*/
 
 /* Header */
 
@@ -2863,8 +2864,8 @@
 		}
 
 			.poptrox-popup .loader:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
+				/*-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;*/
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
@@ -2908,8 +2909,8 @@
 
 			.poptrox-popup .nav-next:before,
 			.poptrox-popup .nav-previous:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
+				/*-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;*/
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
@@ -2967,8 +2968,8 @@
 		}
 
 			.poptrox-popup .closer:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
+				/*-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;*/
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
