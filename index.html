@@ -54,6 +54,7 @@
 				<!-- Two -->
 					<section>
 						<h2>Projets professionnels</h2>
+						<p></p>
 						<div id="owl-demo">          
 						 <div class="item"><img src="projects/focal/06.png" alt="Owl Image"></div>
 						 <div class="item"><img src="projects/focal/07.png" alt="Owl Image"></div>
@@ -69,10 +70,15 @@
 						 <div class="item"><img src="projects/sofinco/12.png" alt="Owl Image"></div>
 						 <div class="item"><img src="projects/sofinco/info1.png" alt="Owl Image"></div>
 						 <div class="item"><img src="projects/sofinco/info2.png" alt="Owl Image"></div>
+						 <div class="item"><img src="projects/sofinco/info3.png" alt="Owl Image"></div>
+						 <div class="item"><img src="projects/sofinco/info4.png" alt="Owl Image"></div>
 						 <div class="item"><img src="projects/divers/conv-01.png" alt="Owl Image"></div>
 						 <div class="item"><img src="projects/divers/conv-02.png" alt="Owl Image"></div>
 						 <div class="item"><img src="projects/divers/cprint1.png" alt="Owl Image"></div>
 						 <div class="item"><img src="projects/divers/cprint2.png" alt="Owl Image"></div>
+						 <div class="item"><img src="projects/divers/ciss1.png" alt="Owl Image"></div>
+						 <div class="item"><img src="projects/divers/ciss2.png" alt="Owl Image"></div>
+						 <div class="item"><img src="projects/divers/ciss3.png" alt="Owl Image"></div>
 						</div>
 					</section>
 					<section>
@@ -81,13 +87,19 @@
 							<article class="6u 12u$(xsmall) project">
 								<a href="focal.html" class="image fit"><img src="projects/focal/logo-focal.jpg" alt="" /></a>
 								<h3>Les irrésistibles Focal</h3>
-								<p>Campagne facebook pour la marque d'appareils audio de la marque Focal</p>
+								<p>Campagne facebook mise en place par Conversationnel pour la marque d'appareils audio de la marque Focal</p>
 							</article>
 							<article class="6u$ 12u$(xsmall) project">
 								<a href="modesettravaux.html" class="image fit"><img src="projects/mt/logo-mt.jpg" alt="" /></a>
 								<h3>Modes&Travaux</h3>
-								<p>Campagne Facebook pour le magazine féminin Modes&Travaux</p>
+								<p>Campagne Facebook mise en place par Conversationnel pour le magazine féminin Modes&Travaux</p>
 							</article>
+
+							<div id="owl-twitter" class="owl-carousel image fit">
+							  <div class="item"><img src="projects/divers/grdf1.png" alt="Owl Image"></div>
+							  <div class="item"><img src="projects/divers/fabulous1.png" alt="Owl Image"></div>
+							  <div class="item"><img src="projects/divers/fabulous2.png" alt="Owl Image"></div>
+							</div>
 							<!-- <article class="6u 12u$(xsmall) project">
 								<a href="sofinco.html" class="image fit"><img src="projects/sofinco/logo-sofinco.jpg" alt="" /></a>
 								<h3>Sofinco</h3>
@@ -105,10 +117,11 @@
 						<h2>Portfolio</h2>
 						<div class="row 50% uniform">
 							<div id="owl-portfolio" class="owl-carousel image fit">
+							  <div class="item"><img src="images/fulls/discovery.jpg" alt=""></div>
 							  <div class="item"><img src="images/fulls/life.jpg" alt=""></div>
-							  <div class="item"><img src="images/fulls/standout.jpg" alt=""></div>
+							  <div class="item"><img src="images/fulls/getreadyforit.jpg" alt=""></div>
 							  <div class="item"><img src="images/fulls/junglecity.png" alt=""></div>
-							  <div class="item"><img src="images/fulls/03.png" alt=""></div>
+							  <div class="item"><img src="images/fulls/parrot.jpg" alt=""></div>
 							</div>
 							<!-- <div class="12u$">
 								<span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span>
@@ -116,7 +129,6 @@
 
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/01.png" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3></h3>
 							</article>
 
 							<article class="6u$ 12u$(xsmall) work-item">
@@ -127,12 +139,16 @@
 								<a href="images/fulls/03.png" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
 							</article>
 
-							<article class="6u 12u$(xsmall) work-item">
+							<article class="6u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/05.png" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
 							</article>
 
-							<article class="6u$ 12u$(xsmall) work-item">
+							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/06.png" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+							</article>
+
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
 							</article>
 						</div>
 						<!-- <ul class="actions center clear">
@@ -188,24 +204,28 @@
 
 			<script src="assets/owl-carousel/owl.carousel.js"></script>
     		<script type="text/javascript">
-				$(document).ready(function() {$("#owl-demo").owlCarousel();});
 				$(document).ready(function() {
+					$("#owl-demo").owlCarousel();
  
-				  $("#owl-portfolio").owlCarousel({
-				    slideSpeed : 300,
-				    paginationSpeed : 400,
-				    singleItem:true,
-				    autoPlay : 3000,
-    				stopOnHover : true,
-    				
+				$("#owl-portfolio").owlCarousel({
+					slideSpeed : 300,
+					paginationSpeed : 400,
+					singleItem:true,
+					autoPlay : 3000,
+					stopOnHover : true,
+					
 				      // "singleItem:true" is a shortcut for:
 				      // items : 1, 
 				      // itemsDesktop : false,
 				      // itemsDesktopSmall : false,
 				      // itemsTablet: false,
-				      // itemsMobile : false
-				 
+				      // itemsMobile : false	 
 				  });
+
+				$("#owl-twitter").owlCarousel({
+					singleItem:true,
+				  });
+
 				 
 				});
 			</script>
