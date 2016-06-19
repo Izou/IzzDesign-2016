@@ -55,30 +55,18 @@
 					<section>
 						<h2>Projets professionnels</h2>
 						<p></p>
-						<div id="owl-demo">          
-						 <div class="item"><img src="projects/focal/06.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/focal/07.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/focal/14.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/focal/21.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/focal/18.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/focal/23.png" alt="Owl Image"></div>
-						 <div class="item"><video src="projects/focal/v13.mp4" alt="Owl Image" controls></div>
-						 <div class="item"><video src="projects/focal/v25.mp4" alt="Owl Image" controls></div>
-						 <div class="item"><video src="projects/mt/mars.mp4" alt="Owl Image" controls></div>
-						 <div class="item"><video src="projects/mt/novembre.mp4" alt="Owl Image" controls></div>
-						 <div class="item"><img src="projects/sofinco/11.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/sofinco/12.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/sofinco/info1.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/sofinco/info2.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/sofinco/info3.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/sofinco/info4.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/divers/conv-01.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/divers/conv-02.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/divers/cprint1.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/divers/cprint2.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/divers/ciss1.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/divers/ciss2.png" alt="Owl Image"></div>
-						 <div class="item"><img src="projects/divers/ciss3.png" alt="Owl Image"></div>
+						<div id="owl-demo" class="image fit">
+						 <div class="item"><a href="focal.html"><img src="projects/carousel/focal.png" alt="Owl Image"/></a></div>
+						 <div class="item"><a href="conv.html"><img src="projects/carousel/conversationnel.png" alt="Owl Image"></a></div>
+						 <div class="item"><a href="modesettravaux.html"><img src="projects/carousel/modes.png" alt="Owl Image"></a></div>
+						 <div class="item"><img src="projects/divers/grdf1.png" alt="Owl Image"></div>
+						 <div class="item"><a href="sofinco.html"><img src="projects/carousel/sofinco.png" alt="Owl Image"></a></div>
+						<div class="item"><img src="projects/carousel/apicil-newsletter.png" alt="Owl Image"></div>
+						<div class="item"><img src="projects/carousel/pagesjaune.png" alt="Owl Image"></div>
+						<div class="item"><img src="projects/divers/fabulous3.png" alt="Owl Image"></div>
+						<div class="item"><img src="projects/divers/fabulous4.png" alt="Owl Image"></div>
+						<div class="item"><img src="projects/carousel/fabulous-newsletter.png" alt="Owl Image"></div>
+						 <div class="item"><a href="sofinco.html"><img src="projects/carousel/ciss.png" alt="Owl Image"></a></div>
 						</div>
 					</section>
 					<section>
@@ -95,11 +83,6 @@
 								<p>Campagne Facebook mise en place par Conversationnel pour le magazine féminin Modes&Travaux</p>
 							</article>
 
-							<div id="owl-twitter" class="owl-carousel image fit">
-							  <div class="item"><img src="projects/divers/grdf1.png" alt="Owl Image"></div>
-							  <div class="item"><img src="projects/divers/fabulous1.png" alt="Owl Image"></div>
-							  <div class="item"><img src="projects/divers/fabulous2.png" alt="Owl Image"></div>
-							</div>
 							<!-- <article class="6u 12u$(xsmall) project">
 								<a href="sofinco.html" class="image fit"><img src="projects/sofinco/logo-sofinco.jpg" alt="" /></a>
 								<h3>Sofinco</h3>
@@ -207,27 +190,21 @@
     		<script type="text/javascript">
 				$(document).ready(function() {
 					$("#owl-demo").owlCarousel();
- 
-				$("#owl-portfolio").owlCarousel({
-					slideSpeed : 300,
-					paginationSpeed : 400,
-					singleItem:true,
-					autoPlay : 3000,
-					stopOnHover : true,
-					
-				      // "singleItem:true" is a shortcut for:
-				      // items : 1, 
-				      // itemsDesktop : false,
-				      // itemsDesktopSmall : false,
-				      // itemsTablet: false,
-				      // itemsMobile : false	 
-				  });
-
-				$("#owl-twitter").owlCarousel({
-					singleItem:true,
-				  });
-
-				 
+	 
+					$("#owl-portfolio").owlCarousel({
+						slideSpeed : 300,
+						paginationSpeed : 400,
+						singleItem:true,
+						autoPlay : 3000,
+						stopOnHover : true,
+						
+					      // "singleItem:true" is a shortcut for:
+					      // items : 1, 
+					      // itemsDesktop : false,
+					      // itemsDesktopSmall : false,
+					      // itemsTablet: false,
+					      // itemsMobile : false	 
+					  });
 				});
 			</script>
 	</body>

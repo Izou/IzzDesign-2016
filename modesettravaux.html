@@ -76,7 +76,16 @@
     		<script src="assets/js/wow.js"></script>
     		<script src="assets/owl-carousel/owl.carousel.js"></script>
     		<script type="text/javascript">
-				$(document).ready(function() {$("#owl-demo").owlCarousel();});
+				$(document).ready(function() {$("#owl-demo").owlCarousel({
+						items:2,
+						
+					      // "singleItem:true" is a shortcut for:
+					      // items : 1, 
+					      // itemsDesktop : false,
+					      // itemsDesktopSmall : false,
+					      // itemsTablet: false,
+					      // itemsMobile : false	 
+					  });});
 			</script>
 
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
